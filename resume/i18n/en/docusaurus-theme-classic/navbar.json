@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "СV",
+    "description": "The title in the navbar"
+  },
+  "item.label.Резюме": {
+    "message": "CV",
+    "description": "Navbar item with label resume"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
