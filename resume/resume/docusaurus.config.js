@@ -26,8 +26,8 @@ const config = {
   },
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['uk','en'],
+    defaultLocale: 'uk',
+    locales: ['uk'],
   },
 
   presets: [
@@ -59,11 +59,6 @@ const config = {
          position: 'right',
          target: '_blank' // открывать как внешний ресурс
         },
-        
-        {
-        type: 'localeDropdown',
-        position: 'right', // можно 'left' или 'right'
-      },
              
         {
           href: 'https://github.com/yourname/resume-docusaurus',
