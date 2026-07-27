@@ -27,7 +27,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'uk',
-    locales: ['uk'],
+    locales: ['uk','en'],
   },
 
   presets: [
@@ -51,17 +51,16 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Резюме',
+     
       items: [
-        {
-         href: '/222.pdf',
-         label: 'resume',
-         position: 'right',
-         target: '_blank' // открывать как внешний ресурс
-        },
              
         {
-          href: 'https://github.com/yourname/resume-docusaurus',
+        type: 'localeDropdown',
+        position: 'right', // можно 'left' или 'right'
+      },
+             
+        {
+          href: 'https://github.com/valerij1/resume',
           label: 'GitHub',
           position: 'right',
         },
