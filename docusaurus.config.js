@@ -53,7 +53,13 @@ const config = {
     navbar: {
      
       items: [
-             
+        {
+         href: '/222.pdf',
+         label: 'Резюме',
+         position: 'right',
+         target: '_blank' // открывать как внешний ресурс
+        },
+        
         {
         type: 'localeDropdown',
         position: 'right', // можно 'left' или 'right'
