@@ -3,6 +3,11 @@ id: experience
 title: Experience
 ---
 
+import Background from '@site/src/components/Background';
+
+<Background>
+  <div>
+
 ### Work experience
 __Technical writing book Freelance 2025 - the current hour__
 
@@ -22,3 +27,6 @@ __Technical expert, LLC "Promservisdiagnostika" 2019-2024__
 __Advance Report 2015-2019__
 - Merchandiser, __TOV “Vichunay-Ukraine”__
 - Specialist in verification and claims processing, __PAT CB "PrivatBank"__
+
+</div>
+</Background>

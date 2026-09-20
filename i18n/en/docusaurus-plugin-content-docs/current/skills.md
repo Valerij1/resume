@@ -2,7 +2,11 @@
 id: skills
 title: Skills
 ---
+import Background from '@site/src/components/Background';
 
+<Background>
+  <div>
+    
 # Key skills
 
 - Working with technical documentation in the logistics sector: coordination with the IT department, legal department and hiring department
@@ -19,3 +23,5 @@ title: Skills
 
 ## Tools
 Docusaurus, Confluence, Swagger, Postman, Jira, GitHub, Git, Markdown, Draw.io, Google Docs, Google Workspace, Canva.
+</div>
+</Background>
