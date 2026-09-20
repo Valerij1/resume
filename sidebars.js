@@ -5,7 +5,5 @@ module.exports = {
     'skills',
     'resume',
     'contacts',
-    
-    
   ],
 };
