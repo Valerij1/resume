@@ -3,6 +3,12 @@ id: skills
 title: Навички
 ---
 
+import Background from '@site/src/components/Background';
+
+<Background>
+
+
+
 ## Ключові навички
 
 - Робота з технічною документацією у сфері логістики: співпраця з ІТ‑відділом юридичним відділом та відділом найма
@@ -19,3 +25,4 @@ title: Навички
 
 ## Інструменти
 Docusaurus, Confluence, Swagger, Postman, Jira, GitHub, Git, Markdown, Draw.io, Google Docs, Google Workspace, Canva.
+</Background>
