@@ -28,3 +28,54 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* ========================================
+   Background component
+   ======================================== */
+
+.background-container {
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Фоновая картинка */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Подложка */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Светлая тема */
+  background-color: rgba(255, 255, 255, 0.45);
+  
+  z-index: 2;
+}
+
+/* Контент */
+.background-content {
+  position: relative;
+  z-index: 3;
+  padding: 40px;
+}
+
+/* ========================================
+   Тёмная тема
+   ======================================== */
+
+[data-theme='dark'] .background-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  }
