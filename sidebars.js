@@ -3,6 +3,7 @@ module.exports = {
     'about_me',
     'experience',
     'skills',
+    'education',
     'resume',
     'contacts',
   ],
