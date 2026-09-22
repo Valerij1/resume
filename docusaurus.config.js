@@ -63,7 +63,7 @@ const config = {
       // Английская версия резюме
       {
         href: '/resume/cv_en.pdf',
-        label: 'CV',
+        label: 'navbar.resumeEN',
         position: 'right',
         target: '_blank',
       },
