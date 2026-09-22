@@ -11,11 +11,11 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-site.example.com',
-  baseUrl: '/',
+  url: 'https://Valerij1.github.io',
+  baseUrl: '/resume/',
 
-  organizationName: 'yourname', // замени на свой GitHub user/org
-  projectName: 'resume-docusaurus', // замени на имя репозитория
+  organizationName: 'Valerij1', // замени на свой GitHub user/org
+  projectName: 'resume', // замени на имя репозитория
 
   onBrokenLinks: 'throw',
 
@@ -54,7 +54,7 @@ const config = {
      
       items: [
         {
-         href: '/222.pdf',
+         href: '/resume/222.pdf',
          label: 'Резюме',
          position: 'right',
          target: '_blank' // открывать как внешний ресурс
