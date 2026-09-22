@@ -1,10 +1,11 @@
 ---
 id: skills
 title: Skills
+hide_title: true
 ---
 import Background from '@site/src/components/Background';
 
-# Key skills
+### Key skills
 
 <Background>
   <div>
@@ -13,7 +14,7 @@ import Background from '@site/src/components/Background';
 - Evidence of collaboration with people of different professions and peers
 - Using AI in daily work to create documentation
 
-## Types of documentation
+### Types of documentation
 
 - User Guides
 - Administrator Guides
@@ -21,7 +22,7 @@ import Background from '@site/src/components/Background';
 - Knowledge Base
 - Internal Documentation
 
-## Tools
+### Tools
 Docusaurus, Confluence, Swagger, Postman, Jira, GitHub, Git, Markdown, Draw.io, Google Docs, Google Workspace, Canva.
 </div>
 </Background>

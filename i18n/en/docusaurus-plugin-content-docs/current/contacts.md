@@ -1,7 +1,10 @@
 ---
 id: contacts
 title: My contacts
+hide_title: true
 ---
+
+### My contacts
 
 import Background from '@site/src/components/Background';
 

@@ -1,9 +1,9 @@
 ---
 id: resume
 title: CV
+hide_title: true
 --- 
-
-
+### CV
 
 import Background from '@site/src/components/Background';
 

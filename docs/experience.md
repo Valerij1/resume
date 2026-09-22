@@ -1,14 +1,17 @@
 ---
 id: experience
 title: Досвід
+hide_title: true
 ---
 
 import Background from '@site/src/components/Background';
 
+### Досвід роботи
+ 
 <Background>
   <div>
     
-### Досвід роботи
+
 
 __Технічний письменник Freelance 2025 - теперішній час__
 

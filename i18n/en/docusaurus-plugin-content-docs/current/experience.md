@@ -1,14 +1,18 @@
 ---
 id: experience
 title: Experience
+hide_title: true
+
 ---
 
 import Background from '@site/src/components/Background';
 
+
+### Work experience
+
 <Background>
   <div>
 
-### Work experience
 __Technical writing book Freelance 2025 - the current hour__
 
 - Development and support of documentation from __Docusaurus__ using the __Docs-as-Code__ approach

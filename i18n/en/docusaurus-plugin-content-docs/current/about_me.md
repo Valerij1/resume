@@ -2,7 +2,10 @@
 id: about_me
 title: Summary
 slug: /
+hide_title: true
 ---
+
+### About me
 
 ![Валерій](/img/111.jpg) 
 
