@@ -55,15 +55,14 @@ const config = {
       items: [
         // Украинская версия резюме
       {
-        href: '/resume/222.pdf',
+        href: 'https://valerij1.github.io/resume/222.pdf',
         label: 'Резюме',
         position: 'right',
         target: '_blank',
       },
-      // Английская версия резюме
       {
-        href: '/resume/cv_en.pdf',
-        label: 'navbar.resumeEN',
+        href: 'https://valerij1.github.io/resume/cv_en.pdf',
+        label: 'Резюме (англ)',
         position: 'right',
         target: '_blank',
       },

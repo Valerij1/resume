@@ -7,16 +7,12 @@
     "message": "CV(ua)",
     "description": "Navbar item with label resume"
   },
-  "item.label.CV": {
-    "message": "CV",
+  "item.label.Резюме (англ)": {
+    "message": "CV(en)",
     "description": "Navbar item with label resume"
   },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
-  },
-  "item.label.navbar.resumeEN": {
-  "message": "CV",
-  "description": "Label for English resume"
   }
 }
