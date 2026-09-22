@@ -11,7 +11,7 @@ import Background from '@site/src/components/Background';
 
 - Working with technical documentation in the logistics sector: coordination with the IT department, legal department and hiring department
 - Evidence of collaboration with people of different professions and peers
-- Vikoristannaya AI in the created robot for creating documentation
+- Using AI in daily work to create documentation
 
 ## Types of documentation
 
