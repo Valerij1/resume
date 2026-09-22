@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Резюме": {
-    "message": "CV",
+    "message": "CV(ua)",
     "description": "Navbar item with label resume"
   },
   "item.label.GitHub": {

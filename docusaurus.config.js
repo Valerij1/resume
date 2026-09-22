@@ -53,12 +53,22 @@ const config = {
     navbar: {
      
       items: [
-        {
-         href: '/resume/222.pdf',
-         label: 'Резюме',
-         position: 'right',
-         target: '_blank' // открывать как внешний ресурс
-        },
+        // Украинская версия резюме
+      {
+        href: '/resume/222.pdf',
+        label: 'Резюме',
+        position: 'right',
+        target: '_blank',
+        locale: 'uk'
+      },
+      // Английская версия резюме
+      {
+        href: '/resume/cv_en.pdf',
+        label: 'CV',
+        position: 'right',
+        target: '_blank',
+        locale: 'en'
+      },
         
         {
         type: 'localeDropdown',
