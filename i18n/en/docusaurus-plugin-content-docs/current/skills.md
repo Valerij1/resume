@@ -4,10 +4,10 @@ title: Skills
 ---
 import Background from '@site/src/components/Background';
 
+# Key skills
+
 <Background>
   <div>
-    
-# Key skills
 
 - Working with technical documentation in the logistics sector: coordination with the IT department, legal department and hiring department
 - Evidence of collaboration with people of different professions and peers

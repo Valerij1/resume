@@ -59,7 +59,6 @@ const config = {
         label: 'Резюме',
         position: 'right',
         target: '_blank',
-        
       },
       // Английская версия резюме
       {
@@ -67,7 +66,6 @@ const config = {
         label: 'CV',
         position: 'right',
         target: '_blank',
-        
       },
         
         {
