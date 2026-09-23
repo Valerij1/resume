@@ -78,4 +78,62 @@
 
 [data-theme='dark'] .background-overlay {
   background-color: rgba(0, 0, 0, 0.75);
+
   }
+
+/* ========================================
+   Кнопка резюме
+   ======================================== */
+
+.resume-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resume-pdf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 9px 15px;
+  min-width: 220px;
+
+  /* Светлая тема */
+  background-color: #d8c6ad;
+  color: #4a3826 !important;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0.9;
+  text-align: center;
+
+  border-radius: 32px;
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.resume-pdf-button:hover {
+  background-color: #c9b395;
+  color: #3d2e20 !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+
+/* ========================================
+   Тёмная тема кнопки
+   ======================================== */
+
+[data-theme='dark'] .resume-pdf-button {
+  background-color: #8b6f47;
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .resume-pdf-button:hover {
+  background-color: #735a39;
+  color: #ffffff !important;
+}
