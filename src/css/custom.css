@@ -80,6 +80,21 @@
   background-color: rgba(0, 0, 0, 0.75);
 
   }
+/* ========================================
+   Резюме — PDF
+   ======================================== */
+
+.resume-pdf-container {
+  width: 100%;
+}
+
+.resume-pdf-container iframe {
+  display: block;
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+
 
 /* ========================================
    Кнопка резюме
@@ -96,19 +111,19 @@
   align-items: center;
   justify-content: center;
 
-  padding: 9px 15px;
+  padding: 6px 20px;
   min-width: 220px;
 
-  /* Светлая тема */
   background-color: #d8c6ad;
   color: #4a3826 !important;
 
   font-size: 18px;
   font-weight: 600;
-  line-height: 0.9;
-  text-align: center;
+  line-height: 1;
 
+  text-align: center;
   border-radius: 32px;
+
   text-decoration: none !important;
 
   transition:
@@ -125,7 +140,7 @@
 
 
 /* ========================================
-   Тёмная тема кнопки
+   Тёмная тема
    ======================================== */
 
 [data-theme='dark'] .resume-pdf-button {
@@ -136,4 +151,41 @@
 [data-theme='dark'] .resume-pdf-button:hover {
   background-color: #735a39;
   color: #ffffff !important;
+}
+
+
+/* ========================================
+   Мобильная версия
+   ======================================== */
+
+.resume-mobile-space {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  /* Полностью убираем PDF на телефоне */
+  .resume-pdf-container {
+    display: none;
+  }
+
+  /* Оставляем место под подложку */
+  .resume-mobile-space {
+    display: block;
+    height: 500px;
+  }
+
+  /* Кнопка внизу */
+  .resume-button-wrapper {
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .resume-pdf-button {
+    min-width: 200px;
+    padding: 7px 18px;
+    font-size: 17px;
+    border-radius: 32px;
+  }
 }

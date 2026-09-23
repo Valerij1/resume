@@ -10,22 +10,24 @@ import Background from '@site/src/components/Background';
 
 <Background>
 
-  <iframe
-    src="/resume/222.pdf"
-    width="100%"
-    height="800px"
-    style={{ border: 'none' }}
-  />
+  <div className="resume-pdf-container">
+    <iframe
+      src="/resume/222.pdf"
+      title="Резюме"
+    />
+  </div>
+
+  <div className="resume-mobile-space"></div>
 
   <div className="resume-button-wrapper">
-  <a
-    href="/resume/222.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="resume-pdf-button"
-  >
-    Відкрити резюме PDF
-  </a>
-</div>
+    <a
+      href="/resume/222.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="resume-pdf-button"
+    >
+      Відкрити резюме PDF
+    </a>
+  </div>
 
 </Background>
