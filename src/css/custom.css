@@ -165,21 +165,23 @@
 
 @media (max-width: 768px) {
 
-  /* Полностью убираем PDF на телефоне */
+  /* PDF на телефоне не показываем */
   .resume-pdf-container {
     display: none;
   }
 
-  /* Оставляем место под подложку */
-  .resume-mobile-space {
-    display: block;
+  /* Область подложки */
+  .resume-mobile-area {
     height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* Кнопка внизу */
+  /* Кнопка */
   .resume-button-wrapper {
-    margin-top: 0;
-    padding-bottom: 200px;
+    margin: 0;
   }
 
   .resume-pdf-button {

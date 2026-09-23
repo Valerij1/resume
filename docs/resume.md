@@ -19,6 +19,7 @@ import Background from '@site/src/components/Background';
 
   <div className="resume-mobile-space"></div>
 
+  <div className="resume-mobile-area">
   <div className="resume-button-wrapper">
     <a
       href="/resume/222.pdf"
@@ -29,5 +30,6 @@ import Background from '@site/src/components/Background';
       Відкрити резюме PDF
     </a>
   </div>
+</div>
 
 </Background>

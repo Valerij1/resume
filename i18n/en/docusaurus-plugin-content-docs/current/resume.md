@@ -8,5 +8,27 @@ hide_title: true
 import Background from '@site/src/components/Background';
 
 <Background>
-  <embed src="/resume/cv_en.pdf" width="100%" height="600px" />
+
+  <div className="resume-pdf-container">
+    <iframe
+      src="/resume/cv_en.pdf"
+      title="CV"
+    />
+  </div>
+
+  <div className="resume-mobile-space"></div>
+
+  <div className="resume-mobile-area">
+  <div className="resume-button-wrapper">
+    <a
+      href="/resume/222.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="resume-pdf-button"
+    >
+      Open CV PDF
+    </a>
+  </div>
+</div>
+
 </Background>
