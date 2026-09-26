@@ -14,6 +14,16 @@ const config = {
   url: 'https://Valerij1.github.io',
   baseUrl: '/resume/',
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '419E6191A7FA313E',
+      },
+    },
+  ],
+
   organizationName: 'Valerij1', // замени на свой GitHub user/org
   projectName: 'resume', // замени на имя репозитория
 
@@ -47,15 +57,7 @@ const config = {
   ],
 
   themeConfig: {
-  headTags: [
-    {
-      tagName: 'meta',
-      attributes: {
-        name: 'algolia-site-verification',
-        content: '419E6191A7FA313E',
-      },
-    },
-  ],
+  
     colorMode: {
       respectPrefersColorScheme: true,
     },
