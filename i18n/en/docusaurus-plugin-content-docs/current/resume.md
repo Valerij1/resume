@@ -21,7 +21,7 @@ import Background from '@site/src/components/Background';
   <div className="resume-mobile-area">
   <div className="resume-button-wrapper">
     <a
-      href="/resume/222.pdf"
+      href="/resume/cv_en.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="resume-pdf-button"
