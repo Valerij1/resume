@@ -61,6 +61,14 @@ const config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+
+    algolia: {
+  appId: 'LS50FQ3M43',
+  apiKey: 'd423cb27f7292e481c086aefa8cdf475',
+  indexName: 'valerij1_github_io_ls50fq3m43_pages',
+  contextualSearch: false,
+}, 
+
     navbar: {
      
       items: [
