@@ -47,12 +47,25 @@ const config = {
   ],
 
   themeConfig: {
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '419E6191A7FA313E',
+      },
+    },
+  ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
      
       items: [
+      {
+        type: 'localeDropdown',
+        position: 'right', // можно 'left' или 'right'
+      },
         // Украинская версия резюме
       {
         href: 'https://valerij1.github.io/resume/222.pdf',
@@ -67,10 +80,6 @@ const config = {
         target: '_blank',
       },
         
-        {
-        type: 'localeDropdown',
-        position: 'right', // можно 'left' или 'right'
-      },
              
         {
           href: 'https://github.com/valerij1/resume',
