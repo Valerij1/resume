@@ -72,6 +72,11 @@ const config = {
     navbar: {
      
       items: [
+    {
+      type: 'search',
+      position: 'right',
+    },
+
       {
         type: 'localeDropdown',
         position: 'right', // можно 'left' или 'right'
