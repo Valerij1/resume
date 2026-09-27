@@ -191,3 +191,71 @@
     border-radius: 32px;
   }
 }
+
+/* ===== About Me ===== */
+
+.about-me {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+.about-me__content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.about-me__photo {
+  flex: 0 0 180px;
+  width: 180px;
+  margin-top: 0;
+}
+
+.about-me__photo img {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.background-content {
+  margin-top: 0 !important;
+  padding-top: 0
+   !important;
+}
+
+.background-content > :first-child {
+  margin-top: 5 !important;
+}
+/* Светлая тема */
+[data-theme='light'] .about-me__photo img {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+}
+
+/* Тёмная тема */
+[data-theme='dark'] .about-me__photo img {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
+}
+
+/* ===== Телефон ===== */
+
+@media (max-width: 600px) {
+  .about-me {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .about-me__photo {
+    flex: none;
+    width: 140px;
+  }
+
+  .about-me__photo img {
+    width: 140px;
+  }
+}

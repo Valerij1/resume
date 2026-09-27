@@ -5,9 +5,15 @@ hide_title: true
 slug: /
 ---
 
+import Background from '@site/src/components/Background';
+
 ### Про мене
 
-![Валерій](/img/111.jpg) 
+<Background>
+
+<div className="about-me">
+
+  <div className="about-me__content">
 
 __Технічний письменник__ з 1,5-річним досвідом створення та підтримки технічної документації для веб застосунків, адміністративних панелей і __REST API__. 
 Спеціалізуюся на __Docs-as-Code (Docusaurus, Confluence, GitHub)__. 
@@ -19,3 +25,13 @@ __Ключові навички__
 - __Використання AI__ у щоденній роботі для створення документації.
 
 [Завантажити резюме (PDF)](/222.pdf)
+
+
+  </div>
+
+  <div className="about-me__photo">
+    <img src="/resume/img/111.jpg" alt="Валерій" />
+  </div>
+
+</div>
+</Background>
